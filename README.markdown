@@ -38,7 +38,8 @@
 ├── ecom_analytics_task4.xlsx # Keluaran: Tingkat stok berdasarkan produk terjual
 ├── ecom_analytics_task5.xlsx # Keluaran: Prediksi restok berdasarkan ambang minimum penjualan
 ├── Data.py                 # Load data ke database
-├── celery_task.py                 # Celery_tasks.log
+├── celery_task.log                 # Celery_tasks.log
+├── queries.log                 # Quueries.log
 ```
 
 ## Task
