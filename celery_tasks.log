@@ -1,0 +1,23 @@
+2025-06-02 02:08:31,174 - INFO - Starting main script
+2025-06-02 02:09:31,478 - ERROR - Task 74384a19-f1e3-4d93-b1e4-725f2de38779 timed out
+2025-06-02 02:09:31,479 - ERROR - Main script failed: 'AsyncResult' object has no attribute 'task_name'
+2025-06-02 02:15:27,272 - INFO - Starting main script
+2025-06-02 02:15:31,459 - INFO - Task task1 ID: 964a5244-4fa9-4e09-9f2a-bd41e77392b0 sent to queue1
+2025-06-02 02:15:31,466 - INFO - Task task2 ID: 154ee0a6-4ddf-4ba7-9036-8cd1a1dd7afc sent to queue2
+2025-06-02 02:15:31,473 - INFO - Task task3 ID: eaabc3b4-e805-4cc0-8b23-2da0a6ef0d43 sent to queue3
+2025-06-02 02:15:31,485 - INFO - Task task4 ID: 56437af1-e619-487f-9204-30b5c0d560f4 sent to queue4
+2025-06-02 02:16:31,538 - ERROR - Task 964a5244-4fa9-4e09-9f2a-bd41e77392b0 (task1) timed out
+2025-06-02 02:17:31,568 - ERROR - Task 154ee0a6-4ddf-4ba7-9036-8cd1a1dd7afc (task2) timed out
+2025-06-02 02:18:31,596 - ERROR - Task eaabc3b4-e805-4cc0-8b23-2da0a6ef0d43 (task3) timed out
+2025-06-02 02:19:31,623 - ERROR - Task 56437af1-e619-487f-9204-30b5c0d560f4 (task4) timed out
+2025-06-02 02:19:32,789 - INFO - Hasil disimpan ke ecom_analytics_results.xlsx
+2025-06-02 02:29:41,132 - INFO - Starting main script
+2025-06-02 02:29:41,361 - INFO - Task task1 ID: 8357781b-02ad-48bc-80f5-8050a2f2e57d sent to queue1
+2025-06-02 02:29:41,370 - INFO - Task task2 ID: 422f775f-4858-472a-94c5-16e3603be272 sent to queue2
+2025-06-02 02:29:41,379 - INFO - Task task3 ID: 8fbde540-f4b6-4985-808c-28e2d6952cca sent to queue3
+2025-06-02 02:29:41,387 - INFO - Task task4 ID: 755647d0-831d-4b2d-a48d-efd06486543d sent to queue4
+2025-06-02 02:30:41,437 - ERROR - Task 8357781b-02ad-48bc-80f5-8050a2f2e57d (task1) timed out
+2025-06-02 02:31:41,466 - ERROR - Task 422f775f-4858-472a-94c5-16e3603be272 (task2) timed out
+2025-06-02 02:32:41,498 - ERROR - Task 8fbde540-f4b6-4985-808c-28e2d6952cca (task3) timed out
+2025-06-02 02:33:41,528 - ERROR - Task 755647d0-831d-4b2d-a48d-efd06486543d (task4) timed out
+2025-06-02 02:33:42,510 - INFO - Hasil disimpan ke ecom_analytics_results.xlsx
