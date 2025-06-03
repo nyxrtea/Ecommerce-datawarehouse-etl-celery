@@ -1,0 +1,6 @@
+pandas==2.2.2
+openpyxl==3.1.2
+celery==5.3.6
+flower==2.0.1
+kombu==5.3.5
+amqp==5.2.0

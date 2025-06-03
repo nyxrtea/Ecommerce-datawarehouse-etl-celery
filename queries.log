@@ -1,0 +1,443 @@
+2025-06-02 05:31:04,491 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 05:31:04,518 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 05:31:04,527 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 05:31:04,558 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 05:31:05,759 - WARNING - Inspect method active_queues failed
+2025-06-02 05:31:05,761 - WARNING - Inspect method stats failed
+2025-06-02 05:31:05,761 - WARNING - Inspect method revoked failed
+2025-06-02 05:31:05,762 - WARNING - Inspect method active failed
+2025-06-02 05:31:05,762 - WARNING - Inspect method reserved failed
+2025-06-02 05:31:05,763 - WARNING - Inspect method scheduled failed
+2025-06-02 05:31:05,763 - WARNING - Inspect method registered failed
+2025-06-02 05:31:05,764 - WARNING - Inspect method conf failed
+2025-06-02 05:33:56,890 - INFO - Starting main script
+2025-06-02 05:33:57,092 - INFO - Task task1 ID: 19ad4a91-315d-446e-9681-0e1cbea0ff29 sent to queue1
+2025-06-02 05:33:57,100 - INFO - Task task2 ID: e574eaa4-af8f-4b83-8fa0-7f590bff7074 sent to queue2
+2025-06-02 05:33:57,110 - INFO - Task task3 ID: c29aa8eb-4332-4214-b403-4331add86541 sent to queue3
+2025-06-02 05:33:57,125 - INFO - Task task4 ID: 668e55a8-45e0-4b5f-b6d4-36367edc48cd sent to queue4
+2025-06-02 05:33:57,249 - ERROR - Task 19ad4a91-315d-446e-9681-0e1cbea0ff29 (task1) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:33:57,261 - ERROR - Task e574eaa4-af8f-4b83-8fa0-7f590bff7074 (task2) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:33:58,262 - ERROR - Task c29aa8eb-4332-4214-b403-4331add86541 (task3) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:33:59,264 - ERROR - Task 668e55a8-45e0-4b5f-b6d4-36367edc48cd (task4) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:33:59,265 - ERROR - Main script failed: string indices must be integers, not 'str'
+2025-06-02 05:43:55,317 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 05:43:55,338 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 05:43:55,346 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 05:43:55,375 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 05:43:56,557 - WARNING - Inspect method stats failed
+2025-06-02 05:43:56,560 - WARNING - Inspect method active failed
+2025-06-02 05:43:56,562 - WARNING - Inspect method conf failed
+2025-06-02 05:43:56,564 - WARNING - Inspect method active_queues failed
+2025-06-02 05:43:56,564 - WARNING - Inspect method registered failed
+2025-06-02 05:43:56,565 - WARNING - Inspect method scheduled failed
+2025-06-02 05:43:56,569 - WARNING - Inspect method revoked failed
+2025-06-02 05:43:56,569 - WARNING - Inspect method reserved failed
+2025-06-02 05:45:13,368 - INFO - Starting main script
+2025-06-02 05:45:13,577 - INFO - Task task1 ID: 144c5844-3ea2-4282-9499-e9b5942caee7 sent to queue1
+2025-06-02 05:45:13,607 - INFO - Task task2 ID: a1646bae-5c55-4b7e-9f60-f9136ff9cd89 sent to queue2
+2025-06-02 05:45:13,619 - INFO - Task task3 ID: 5e074f01-cb85-40a4-8a69-1a6fd0406b23 sent to queue3
+2025-06-02 05:45:13,644 - INFO - Task task4 ID: eb0b8824-a0eb-4988-bb9c-3b5dfd4f2b68 sent to queue4
+2025-06-02 05:45:13,756 - ERROR - Task 144c5844-3ea2-4282-9499-e9b5942caee7 (task1) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:45:13,774 - ERROR - Task a1646bae-5c55-4b7e-9f60-f9136ff9cd89 (task2) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:45:13,790 - ERROR - Task 5e074f01-cb85-40a4-8a69-1a6fd0406b23 (task3) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:45:13,803 - ERROR - Task eb0b8824-a0eb-4988-bb9c-3b5dfd4f2b68 (task4) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:45:13,812 - ERROR - Error saat menyimpan hasil task1: DataFrame constructor not properly called!
+2025-06-02 05:45:13,813 - ERROR - Error saat menyimpan hasil task2: DataFrame constructor not properly called!
+2025-06-02 05:45:13,814 - ERROR - Error saat menyimpan hasil task3: DataFrame constructor not properly called!
+2025-06-02 05:45:13,817 - WARNING - Data hasil task4 tidak sesuai format: not enough values to unpack (expected 3, got 0)
+2025-06-02 05:57:44,407 - INFO - Starting main script
+2025-06-02 05:57:44,609 - INFO - Task task1 ID: d7d82c6e-5779-4379-b36c-acdeaa850a91 sent to queue1
+2025-06-02 05:57:44,617 - INFO - Task task2 ID: bc18b00c-158a-4736-b05d-848c3770c305 sent to queue2
+2025-06-02 05:57:44,624 - INFO - Task task3 ID: 67431d6f-ea4d-469f-8f40-43a8ad58d381 sent to queue3
+2025-06-02 05:57:44,632 - INFO - Task task4 ID: 21e8643b-922b-4626-94e3-61ec608a208a sent to queue4
+2025-06-02 05:57:44,665 - ERROR - Task d7d82c6e-5779-4379-b36c-acdeaa850a91 (task1) failed: 'tasks.run_query_task1'
+2025-06-02 05:57:44,674 - ERROR - Task bc18b00c-158a-4736-b05d-848c3770c305 (task2) failed: 'tasks.run_query_task2'
+2025-06-02 05:57:44,681 - ERROR - Task 67431d6f-ea4d-469f-8f40-43a8ad58d381 (task3) failed: 'tasks.run_query_task3'
+2025-06-02 05:57:44,687 - ERROR - Task 21e8643b-922b-4626-94e3-61ec608a208a (task4) failed: 'tasks.run_query_task4'
+2025-06-02 06:03:37,836 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 06:03:37,856 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 06:03:37,865 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 06:03:37,903 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 06:04:25,917 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 06:04:25,937 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 06:04:25,946 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 06:04:25,974 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 06:04:27,116 - WARNING - Inspect method registered failed
+2025-06-02 06:04:27,154 - WARNING - Inspect method stats failed
+2025-06-02 06:04:27,156 - WARNING - Inspect method scheduled failed
+2025-06-02 06:04:27,164 - WARNING - Inspect method reserved failed
+2025-06-02 06:04:27,179 - WARNING - Inspect method active failed
+2025-06-02 06:04:27,186 - WARNING - Inspect method revoked failed
+2025-06-02 06:04:27,187 - WARNING - Inspect method active_queues failed
+2025-06-02 06:04:27,192 - WARNING - Inspect method conf failed
+2025-06-02 06:05:39,338 - INFO - Starting main script
+2025-06-02 06:05:39,538 - INFO - Task task1 ID: ab2bbba4-3402-4fcf-bad3-37737d00b6ee sent to queue1
+2025-06-02 06:05:39,546 - INFO - Task task2 ID: 533c6731-3efe-4499-aa34-5d33d7b2966e sent to queue2
+2025-06-02 06:05:39,554 - INFO - Task task3 ID: 53427985-2aa1-4370-968f-5c532dd3067e sent to queue3
+2025-06-02 06:05:39,566 - INFO - Task task4 ID: 70796509-bfea-4e33-aabc-30c79e85ceb7 sent to queue4
+2025-06-02 06:05:39,649 - ERROR - Task ab2bbba4-3402-4fcf-bad3-37737d00b6ee (task1) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:05:39,660 - ERROR - Task 533c6731-3efe-4499-aa34-5d33d7b2966e (task2) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:05:39,677 - ERROR - Task 53427985-2aa1-4370-968f-5c532dd3067e (task3) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:05:39,687 - ERROR - Task 70796509-bfea-4e33-aabc-30c79e85ceb7 (task4) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:24:06,722 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 06:24:06,751 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 06:24:06,764 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 06:24:06,822 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 06:24:08,203 - WARNING - Inspect method reserved failed
+2025-06-02 06:24:08,205 - WARNING - Inspect method conf failed
+2025-06-02 06:24:08,207 - WARNING - Inspect method revoked failed
+2025-06-02 06:24:08,209 - WARNING - Inspect method registered failed
+2025-06-02 06:24:08,215 - WARNING - Inspect method active_queues failed
+2025-06-02 06:24:08,216 - WARNING - Inspect method scheduled failed
+2025-06-02 06:24:08,217 - WARNING - Inspect method active failed
+2025-06-02 06:24:08,230 - WARNING - Inspect method stats failed
+2025-06-02 06:25:11,666 - INFO - Starting main script
+2025-06-02 06:25:11,988 - INFO - Task task1 ID: fae36d59-9f8b-46c2-aa7e-d9d2bdc6918a sent to queue1
+2025-06-02 06:25:12,007 - INFO - Task task2 ID: d1d79d11-2709-48f4-9574-4ae99ef68189 sent to queue2
+2025-06-02 06:25:12,038 - INFO - Task task3 ID: 7a90a8b0-264e-414a-9501-ea3719f68a8e sent to queue3
+2025-06-02 06:25:12,070 - INFO - Task task4 ID: 8343776f-5156-4636-9f78-7c4d07b327ff sent to queue4
+2025-06-02 06:25:12,256 - ERROR - Task fae36d59-9f8b-46c2-aa7e-d9d2bdc6918a (task1) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:25:12,280 - ERROR - Task d1d79d11-2709-48f4-9574-4ae99ef68189 (task2) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:25:12,283 - ERROR - Task 7a90a8b0-264e-414a-9501-ea3719f68a8e (task3) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 06:25:12,333 - ERROR - Task 8343776f-5156-4636-9f78-7c4d07b327ff (task4) failed: not enough values to unpack (expected 3, got 0)
+2025-06-02 07:54:56,099 - INFO - Executing query1
+2025-06-02 07:54:57,625 - INFO - query1 completed in 1.53 seconds, returned 8 rows
+2025-06-02 07:56:26,702 - INFO - Executing query2
+2025-06-02 07:56:28,761 - INFO - query2 completed in 2.06 seconds, returned 10 rows
+2025-06-02 07:56:43,871 - INFO - Executing query2
+2025-06-02 07:56:45,872 - INFO - query2 completed in 2.00 seconds, returned 10 rows
+2025-06-02 07:56:59,343 - INFO - Executing query2
+2025-06-02 07:57:01,713 - INFO - query2 completed in 2.37 seconds, returned 10 rows
+2025-06-02 08:00:04,658 - INFO - Executing query2
+2025-06-02 08:00:07,297 - INFO - query2 completed in 2.64 seconds, returned 10 rows
+2025-06-02 08:00:59,650 - INFO - Executing query1
+2025-06-02 08:01:01,140 - INFO - query1 completed in 1.49 seconds, returned 8 rows
+2025-06-02 08:06:32,013 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:06:32,033 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:06:32,042 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 08:06:32,074 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:06:33,244 - WARNING - Inspect method active failed
+2025-06-02 08:06:33,245 - WARNING - Inspect method stats failed
+2025-06-02 08:06:33,246 - WARNING - Inspect method active_queues failed
+2025-06-02 08:06:33,246 - WARNING - Inspect method conf failed
+2025-06-02 08:06:33,250 - WARNING - Inspect method registered failed
+2025-06-02 08:06:33,264 - WARNING - Inspect method revoked failed
+2025-06-02 08:06:33,266 - WARNING - Inspect method reserved failed
+2025-06-02 08:06:33,271 - WARNING - Inspect method scheduled failed
+2025-06-02 08:07:21,748 - INFO - Starting main script
+2025-06-02 08:07:21,949 - INFO - Task task1 ID: 588cb026-5556-4408-abee-048e96ca7cd4 sent to queue1
+2025-06-02 08:07:21,956 - INFO - Task task2 ID: 2a91eccc-9a18-4ee7-a68e-195504399c1d sent to queue2
+2025-06-02 08:07:21,963 - INFO - Task task3 ID: ea52f5e2-58a8-4ab3-93e3-bfcd3acfa1fd sent to queue3
+2025-06-02 08:07:21,972 - INFO - Task task4 ID: 76e6716d-ae7b-4a3d-9628-ec24671237c3 sent to queue4
+2025-06-02 08:08:01,769 - ERROR - RabbitMQ management API call failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-06-02 08:14:08,312 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:14:08,332 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:14:08,341 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 08:14:08,372 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:14:09,539 - WARNING - Inspect method active failed
+2025-06-02 08:14:09,587 - WARNING - Inspect method conf failed
+2025-06-02 08:14:09,597 - WARNING - Inspect method reserved failed
+2025-06-02 08:14:09,601 - WARNING - Inspect method active_queues failed
+2025-06-02 08:14:09,618 - WARNING - Inspect method stats failed
+2025-06-02 08:14:09,619 - WARNING - Inspect method scheduled failed
+2025-06-02 08:14:09,620 - WARNING - Inspect method revoked failed
+2025-06-02 08:14:09,622 - WARNING - Inspect method registered failed
+2025-06-02 08:15:32,854 - INFO - Starting main script
+2025-06-02 08:15:33,052 - INFO - Task task1 ID: a5486bd4-6f47-4be2-9537-32dc1e62e42a sent to queue1
+2025-06-02 08:15:33,059 - INFO - Task task2 ID: f2be3832-0453-470d-bf73-57819af74b46 sent to queue2
+2025-06-02 08:15:33,066 - INFO - Task task3 ID: ca2c5d43-0b07-46d1-8651-f70dd5e88803 sent to queue3
+2025-06-02 08:15:33,077 - INFO - Task task4 ID: cf7c009a-3f34-48dc-b294-39da64228cce sent to queue4
+2025-06-02 08:16:56,476 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:16:56,497 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:16:56,505 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 08:16:56,538 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:16:57,703 - WARNING - Inspect method registered failed
+2025-06-02 08:16:57,704 - WARNING - Inspect method scheduled failed
+2025-06-02 08:16:57,712 - WARNING - Inspect method conf failed
+2025-06-02 08:16:57,718 - WARNING - Inspect method stats failed
+2025-06-02 08:16:57,724 - WARNING - Inspect method active failed
+2025-06-02 08:16:57,729 - WARNING - Inspect method revoked failed
+2025-06-02 08:16:57,734 - WARNING - Inspect method reserved failed
+2025-06-02 08:16:57,741 - WARNING - Inspect method active_queues failed
+2025-06-02 08:18:29,837 - INFO - Starting main script
+2025-06-02 08:18:30,036 - INFO - Task task1 ID: 9a2dae72-4b48-4840-9527-644e9a8086b0 sent to queue1
+2025-06-02 08:18:30,043 - INFO - Task task2 ID: 380ee425-7ac4-421a-9ce9-4ae5063decd5 sent to queue2
+2025-06-02 08:18:30,055 - INFO - Task task3 ID: a9dd1620-d2bc-482d-b291-cc93d1462f1f sent to queue3
+2025-06-02 08:18:30,090 - INFO - Task task4 ID: f7a36f55-2ba8-462b-a666-f37e8c52664e sent to queue4
+2025-06-02 08:18:33,873 - INFO - Task task1 status: SUCCESS, Result received
+2025-06-02 08:18:35,251 - INFO - Task task2 status: SUCCESS, Result received
+2025-06-02 08:18:35,827 - INFO - Task task3 status: SUCCESS, Result received
+2025-06-02 08:18:39,631 - INFO - Task task4 status: SUCCESS, Result received
+2025-06-02 08:18:45,704 - ERROR - RabbitMQ management API call failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-06-02 08:24:34,418 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:24:34,439 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:24:34,452 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4']
+2025-06-02 08:24:34,507 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:24:35,694 - WARNING - Inspect method revoked failed
+2025-06-02 08:24:35,695 - WARNING - Inspect method registered failed
+2025-06-02 08:24:35,696 - WARNING - Inspect method stats failed
+2025-06-02 08:24:35,697 - WARNING - Inspect method scheduled failed
+2025-06-02 08:24:35,697 - WARNING - Inspect method active failed
+2025-06-02 08:24:35,699 - WARNING - Inspect method conf failed
+2025-06-02 08:24:35,709 - WARNING - Inspect method reserved failed
+2025-06-02 08:24:35,720 - WARNING - Inspect method active_queues failed
+2025-06-02 08:25:50,076 - INFO - Starting main script
+2025-06-02 08:25:50,272 - INFO - Task task1 ID: 54574673-d4b1-49b3-b3ca-c18ee5d07ec0 sent to queue1
+2025-06-02 08:25:50,280 - INFO - Task task2 ID: 77348b53-9ab7-40d8-a044-dc79b95adf2d sent to queue2
+2025-06-02 08:25:50,291 - INFO - Task task3 ID: d0a84ac1-414a-49b9-9c04-be0f785dd3bd sent to queue3
+2025-06-02 08:25:50,306 - INFO - Task task4 ID: 04bc4e24-dfc7-4f6b-a56f-078d2e09f92a sent to queue4
+2025-06-02 08:25:54,229 - INFO - Task task1 status: SUCCESS, Result received
+2025-06-02 08:25:55,826 - INFO - Task task2 status: SUCCESS, Result received
+2025-06-02 08:25:56,179 - INFO - Task task3 status: SUCCESS, Result received
+2025-06-02 08:25:59,308 - INFO - Task task4 status: SUCCESS, Result received
+2025-06-02 08:35:35,069 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:35:35,089 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:35:35,099 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4',
+ 'tasks.run_query_task5']
+2025-06-02 08:35:35,130 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:35:36,330 - WARNING - Inspect method registered failed
+2025-06-02 08:35:36,360 - WARNING - Inspect method active failed
+2025-06-02 08:35:36,362 - WARNING - Inspect method reserved failed
+2025-06-02 08:35:36,362 - WARNING - Inspect method stats failed
+2025-06-02 08:35:36,363 - WARNING - Inspect method active_queues failed
+2025-06-02 08:35:36,363 - WARNING - Inspect method conf failed
+2025-06-02 08:35:36,364 - WARNING - Inspect method scheduled failed
+2025-06-02 08:35:36,365 - WARNING - Inspect method revoked failed
+2025-06-02 08:36:59,897 - ERROR - task1 failed: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+2025-06-02 08:36:59,900 - ERROR - task2 failed: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+2025-06-02 08:36:59,902 - ERROR - task3 failed: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+2025-06-02 08:36:59,903 - ERROR - task4 failed: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+2025-06-02 08:36:59,903 - ERROR - task5 failed: 'DisabledBackend' object has no attribute '_get_task_meta_for'
+2025-06-02 08:43:52,367 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:43:52,388 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:43:52,398 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4',
+ 'tasks.run_query_task5']
+2025-06-02 08:43:52,426 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:43:53,590 - WARNING - Inspect method reserved failed
+2025-06-02 08:43:53,590 - WARNING - Inspect method conf failed
+2025-06-02 08:43:53,592 - WARNING - Inspect method active failed
+2025-06-02 08:43:53,595 - WARNING - Inspect method revoked failed
+2025-06-02 08:43:53,619 - WARNING - Inspect method registered failed
+2025-06-02 08:43:53,620 - WARNING - Inspect method stats failed
+2025-06-02 08:43:53,625 - WARNING - Inspect method scheduled failed
+2025-06-02 08:43:53,632 - WARNING - Inspect method active_queues failed
+2025-06-02 08:47:02,576 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 08:47:02,596 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 08:47:02,606 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4',
+ 'tasks.run_query_task5']
+2025-06-02 08:47:02,637 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 08:47:03,811 - WARNING - Inspect method conf failed
+2025-06-02 08:47:03,813 - WARNING - Inspect method reserved failed
+2025-06-02 08:47:03,813 - WARNING - Inspect method active_queues failed
+2025-06-02 08:47:03,815 - WARNING - Inspect method registered failed
+2025-06-02 08:47:03,816 - WARNING - Inspect method scheduled failed
+2025-06-02 08:47:03,822 - WARNING - Inspect method active failed
+2025-06-02 08:47:03,825 - WARNING - Inspect method revoked failed
+2025-06-02 08:47:03,839 - WARNING - Inspect method stats failed
+2025-06-02 08:51:31,097 - INFO - Starting main script
+2025-06-02 08:51:31,293 - INFO - Task task1 ID: 5443d310-16bc-48d7-a581-2df15b0427b5 sent to queue1
+2025-06-02 08:51:31,302 - INFO - Task task2 ID: 7b98d8ee-5f59-4648-aca3-bef0cfec053c sent to queue2
+2025-06-02 08:51:31,312 - INFO - Task task3 ID: 42e08557-063e-4531-8d87-c19e39024baa sent to queue3
+2025-06-02 08:51:31,329 - INFO - Task task4 ID: b186f397-eaee-4fd7-98f9-7fc72696d8a7 sent to queue4
+2025-06-02 08:51:31,349 - INFO - Task task5 ID: ef71216d-76db-4f1d-a070-8b825662e634 sent to queue5
+2025-06-02 08:51:36,136 - INFO - Task task1 status: SUCCESS, Result received
+2025-06-02 08:51:36,216 - INFO - Task task2 status: SUCCESS, Result received
+2025-06-02 08:51:37,136 - INFO - Task task3 status: SUCCESS, Result received
+2025-06-02 08:51:37,681 - INFO - Task task4 status: SUCCESS, Result received
+2025-06-02 08:51:41,004 - INFO - Task task5 status: SUCCESS, Result received
+2025-06-02 10:03:03,580 - WARNING - Substantial drift from worker1@LAPTOP-SBG7M5Q0 may mean clocks are out of sync.  Current drift is 3051 seconds.  [orig: 2025-06-02 10:03:03.579360 recv: 2025-06-02 09:12:12.028514]
+2025-06-02 10:03:03,746 - WARNING - Substantial drift from worker2@LAPTOP-SBG7M5Q0 may mean clocks are out of sync.  Current drift is 3051 seconds.  [orig: 2025-06-02 10:03:03.746258 recv: 2025-06-02 09:12:12.494014]
+2025-06-02 10:03:03,747 - WARNING - Substantial drift from worker3@LAPTOP-SBG7M5Q0 may mean clocks are out of sync.  Current drift is 3050 seconds.  [orig: 2025-06-02 10:03:03.747388 recv: 2025-06-02 09:12:13.207824]
+2025-06-02 14:34:13,787 - INFO - Visit me at http://0.0.0.0:5555
+2025-06-02 14:34:13,814 - INFO - Broker: amqp://guest:**@localhost:5672//
+2025-06-02 14:34:13,825 - INFO - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'tasks.run_query_task1',
+ 'tasks.run_query_task2',
+ 'tasks.run_query_task3',
+ 'tasks.run_query_task4',
+ 'tasks.run_query_task5']
+2025-06-02 14:34:13,867 - INFO - Connected to amqp://guest:**@127.0.0.1:5672//
+2025-06-02 14:34:15,061 - WARNING - Inspect method revoked failed
+2025-06-02 14:34:15,063 - WARNING - Inspect method active failed
+2025-06-02 14:34:15,066 - WARNING - Inspect method scheduled failed
+2025-06-02 14:34:15,066 - WARNING - Inspect method reserved failed
+2025-06-02 14:34:15,074 - WARNING - Inspect method conf failed
+2025-06-02 14:34:15,113 - WARNING - Inspect method stats failed
+2025-06-02 14:34:15,117 - WARNING - Inspect method active_queues failed
+2025-06-02 14:34:15,133 - WARNING - Inspect method registered failed
+2025-06-02 14:35:23,162 - INFO - Starting main script
+2025-06-02 14:35:23,367 - INFO - Task task1 ID: 05fdbc26-8c23-4dd8-b798-e456510fc388 sent to queue1
+2025-06-02 14:35:23,378 - INFO - Task task2 ID: 91a07f7b-858a-4db3-b47d-a7d26a3ef037 sent to queue2
+2025-06-02 14:35:23,386 - INFO - Task task3 ID: 96d8b6d3-cf60-4347-bbf1-271b978e553e sent to queue3
+2025-06-02 14:35:23,404 - INFO - Task task4 ID: 2cf3bd48-1526-4e2e-bd39-270626c080e6 sent to queue4
+2025-06-02 14:35:23,424 - INFO - Task task5 ID: d9b11c52-67ed-4120-9ce6-fab13a1f7212 sent to queue5
+2025-06-02 14:35:28,938 - INFO - Task task1 status: SUCCESS, Result received
+2025-06-02 14:35:28,985 - INFO - Task task2 status: SUCCESS, Result received
+2025-06-02 14:35:30,179 - INFO - Task task3 status: SUCCESS, Result received
+2025-06-02 14:35:33,299 - INFO - Task task4 status: SUCCESS, Result received
+2025-06-02 14:35:34,301 - INFO - Task task5 status: SUCCESS, Result received
